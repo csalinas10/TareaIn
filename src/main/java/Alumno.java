@@ -3,13 +3,12 @@ public class Alumno {
     private String nombre, apellido, rut;
     private int numeroMatricula;
 
-    public Alumno ( int numeroMatricula , String nombre, String apellido, String rut) {
+    public Alumno (int numeroMatricula, String nombre, String apellido, String rut) {
         this.numeroMatricula = numeroMatricula;
         this.nombre = nombre;
         this.apellido = apellido;
         this.rut = rut;
     }
-
     public String getNombre() {
         return nombre;
     }
